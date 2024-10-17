@@ -2,7 +2,7 @@
 
 This is a solution to [Project: Admin Dashboard for the Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard). The Odin Project provides a free open-source coding curriculum that can be taken entirely online.
 
-Project: Admin Dashboard is one of two projects in the [Intermediate HTML and CSS Course](https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css). It provides an opportunity to practice the content that was covered in the course section on CSS Grid.
+Project: Admin Dashboard is one of two projects in the [Intermediate HTML and CSS Course](https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css). It provides an opportunity to practice building layouts with CSS Grid.
 
 ## Table of contents
 
