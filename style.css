@@ -43,3 +43,24 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+/* General styles and layout */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+  padding-bottom: 24px;
+}
+
+main {
+  flex: 1;
+}
+
+/* Footer */
+.attribution {
+  font-size: 0.75rem;
+  text-align: center;
+}
+.attribution a {
+  color: inherit;
+}
