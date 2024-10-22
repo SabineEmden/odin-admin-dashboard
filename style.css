@@ -45,10 +45,27 @@ h6 {
 }
 
 /* General styles and layout */
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-display: swap;
+  src: local(Roboto), local(Roboto-Regular),
+    url(./assets/fonts/roboto-regular-webfont.woff2) format(woff2);
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-display: swap;
+  src: local(Roboto), local(Roboto-Bold),
+    url(./assets/fonts/roboto-bold-webfont.woff2) format(woff2);
+}
+
 :root {
   --sky500: #0ea5e9;
   --amber400: #fbbf24;
   --slate300: #cbd5e1;
+  --slate500: #64748b;
   --slate950: #020617;
   --white: #ffffff;
 }

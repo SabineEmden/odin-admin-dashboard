@@ -66,4 +66,6 @@ Find me online:
 
 ## Acknowledgements
 
+The font family used in this project is [Roboto](https://fonts.google.com/specimen/Roboto) by Christian Robertson. The fonts are licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
 This solution uses Josh Comeau's [CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/).
