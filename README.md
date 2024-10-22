@@ -34,9 +34,9 @@ The brief for this project was to build out an admin dashboard similar to the on
 
 ### Build with
 
-- Semantic HTML5 markup
 - CSS grid
-- CSS flexbox
+- SVG icons
+- Custom list markers
 
 ### What I learned
 
@@ -53,6 +53,10 @@ Responsive design is not covered until much later in the curriculum. I made my s
 Web accessibility is also covered much later in the curriculum. I used what I have learned about accessibility while working on [Frontend Mentor challenges](https://www.frontendmentor.io/).
 
 ### Useful resources
+
+- [Icons](https://web.dev/learn/design/icons#styling_icons) in Learn Responsive Design on web.dev
+- [Creative list styling](https://web.dev/articles/creative-list-styling) by Michelle Barker for web.dev
+- [CSS lists, Markers, and Counters](https://www.smashingmagazine.com/2019/07/css-lists-markers-counters/) by Rachel Andrew for Smashing Magazine
 
 ## Author
 
