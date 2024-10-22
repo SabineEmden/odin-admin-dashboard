@@ -45,6 +45,14 @@ h6 {
 }
 
 /* General styles and layout */
+:root {
+  --sky500: #0ea5e9;
+  --amber400: #fbbf24;
+  --slate300: #cbd5e1;
+  --slate950: #020617;
+  --white: #ffffff;
+}
+
 body {
   display: flex;
   flex-direction: column;
