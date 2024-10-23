@@ -79,6 +79,21 @@ body {
 
 main {
   flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.sidebar {
+  background-color: var(--sky500);
+  grid-row: 1 / 3;
+}
+
+.header {
+  background-color: var(--amber400);
+}
+
+.main-content {
+  background-color: var(--slate300);
 }
 
 /* Footer */
