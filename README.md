@@ -37,6 +37,7 @@ The brief for this project was to build out an admin dashboard similar to the on
 - CSS grid
 - SVG icons
 - Custom list markers
+- Tooltips
 
 ### What I learned
 
@@ -54,7 +55,7 @@ Web accessibility is also covered much later in the curriculum. I used what I ha
 
 ### Useful resources
 
-- [Icons](https://web.dev/learn/design/icons#styling_icons) in Learn Responsive Design on web.dev
+- [Icons](https://web.dev/learn/design/icons) in Learn Responsive Design on web.dev
 - [Creative list styling](https://web.dev/articles/creative-list-styling) by Michelle Barker for web.dev
 - [CSS lists, Markers, and Counters](https://www.smashingmagazine.com/2019/07/css-lists-markers-counters/) by Rachel Andrew for Smashing Magazine
 
