@@ -118,7 +118,9 @@ main {
 }
 
 .nav-links a {
-  display: block;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
   color: var(--white);
   font-size: 1.25rem;
   font-weight: 700;
@@ -132,6 +134,15 @@ main {
 
 .nav-links a:active {
   color: var(--amber400);
+}
+
+.nav-links svg {
+  height: 1.25rem;
+  fill: var(--white);
+}
+
+.nav-links a:active svg {
+  fill: var(--amber400);
 }
 
 /* Header */
