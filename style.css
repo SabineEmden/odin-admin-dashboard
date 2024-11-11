@@ -63,7 +63,7 @@ h6 {
 
 :root {
   --blue: #0284c7;
-  --amber400: #fbbf24;
+  --yellow: #fbbf24;
   --slate300: #cbd5e1;
   --slate500: #64748b;
   --slate950: #020617;
@@ -133,7 +133,7 @@ main {
 }
 
 .nav-links a:active {
-  color: var(--amber400);
+  color: var(--yellow);
 }
 
 .nav-links svg {
@@ -142,7 +142,7 @@ main {
 }
 
 .nav-links a:active svg {
-  fill: var(--amber400);
+  fill: var(--yellow);
 }
 
 /* Header */
