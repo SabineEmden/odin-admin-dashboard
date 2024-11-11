@@ -147,7 +147,8 @@ main {
 
 /* Header */
 .header {
-  background-color: var(--amber400);
+  background-color: var(--white);
+  color: var(--slate950);
 }
 
 .main-content {

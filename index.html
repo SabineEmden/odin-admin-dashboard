@@ -14,7 +14,7 @@
           <h1>Dashboard</h1>
         </div>
         <nav aria-label="Main">
-          <ul class="nav-links">
+          <ul class="nav-links" role="list">
             <li>
               <a href="#" aria-current="page">
                 <svg
@@ -142,15 +142,28 @@
           </ul>
         </nav>
       </div>
-      <div class="header"></div>
+      <div class="header">
+        <search>
+          <img src="./assets/icons/magnify.svg" alt="" />
+          <input type="search" name="q" id="query" />
+        </search>
+      </div>
       <div class="main-content"></div>
     </main>
     <footer class="attribution">
-      Project for
-      <a
-        href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard"
-        >The Odin Project</a
-      >. Coded by <a href="https://github.com/SabineEmden">Sabine Emden</a>.
+      <div class="author">
+        Project for
+        <a
+          href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard"
+          >The Odin Project</a
+        >. Coded by <a href="https://github.com/SabineEmden">Sabine Emden</a>.
+      </div>
+      <div class="avatar">
+        <a href="https://www.svgrepo.com/collection/circle-avatar-vectors/"
+          >Circle Avatar Vectors</a
+        >
+        by Laura Reed, licensed under CC Attribution License.
+      </div>
     </footer>
   </body>
 </html>
