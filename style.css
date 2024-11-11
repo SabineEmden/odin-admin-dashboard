@@ -75,13 +75,12 @@ body {
   flex-direction: column;
   font-family: "Roboto", sans-serif;
   min-height: 100svh;
-  padding-bottom: 24px;
 }
 
 main {
   flex: 1;
   display: grid;
-  grid-template-columns: max-content 1fr;
+  grid-template-columns: max-content 2fr 1fr;
 }
 
 /* Sidebar */
@@ -147,6 +146,7 @@ main {
 
 /* Header */
 .header {
+  grid-column: 2 / 4;
   background-color: var(--white);
   color: var(--slate950);
 }
