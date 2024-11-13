@@ -147,8 +147,43 @@ main {
 /* Header */
 .header {
   grid-column: 2 / 4;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   background-color: var(--white);
   color: var(--slate950);
+}
+
+.icon {
+  height: 1.5rem;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border: 2px solid red;
+}
+
+.account__user {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--slate950);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.account__user:hover {
+  text-decoration: underline;
+}
+
+.account__user:active {
+  color: var(--blue);
+}
+
+.account__avatar {
+  height: 2.5rem;
 }
 
 /* Main content */
