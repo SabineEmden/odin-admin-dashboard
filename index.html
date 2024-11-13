@@ -156,10 +156,31 @@
         </nav>
       </div>
       <div class="header">
-        <search>
-          <img src="./assets/icons/magnify.svg" alt="" />
-          <input type="search" name="q" id="query" />
+        <search class="search-bar">
+          <img
+            class="search-bar__icon"
+            src="./assets/icons/magnify.svg"
+            alt=""
+          />
+          <input class="search-bar__input" type="search" name="q" id="query" />
         </search>
+        <div class="account">
+          <a class="account__notifications cta" href="#">
+            <img
+              class="cta__icon"
+              src="./assets/icons/bell-ring-outline.svg"
+              alt="notifications"
+            />
+          </a>
+          <a class="account__user" href="#">
+            <img
+              class="account__avatar avatar"
+              src="./assets/avatars/alien-avatar-space-svgrepo-com.svg"
+              alt=""
+            />
+            <span class="account__user-name">Morgan Oakley</span>
+          </a>
+        </div>
       </div>
       <div class="main-content"></div>
     </main>
