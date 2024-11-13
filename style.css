@@ -144,6 +144,22 @@ main {
   fill: var(--yellow);
 }
 
+/* SVG icons in header and main content  */
+.icon {
+  height: 1.5rem;
+}
+
+.cta .icon {
+  fill: var(--slate500);
+}
+.cta:hover .icon {
+  fill: var(--slate950);
+}
+
+.cta:active .icon {
+  fill: var(--blue);
+}
+
 /* Header */
 .header {
   grid-column: 2 / 4;
@@ -153,14 +169,10 @@ main {
   color: var(--slate950);
 }
 
-.icon {
-  height: 1.5rem;
-}
-
 .account {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.25rem;
   border: 2px solid red;
 }
 
