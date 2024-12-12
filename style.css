@@ -81,6 +81,7 @@ main {
   flex: 1;
   display: grid;
   grid-template-columns: max-content 2fr 1fr;
+  grid-template-rows: auto 1fr;
 }
 
 /* Sidebar */
@@ -88,7 +89,7 @@ main {
   grid-row: 1 / 3;
   background-color: var(--blue);
   color: var(--white);
-  padding: 1rem 2rem 1rem 1rem;
+  padding: 16px 32px 16px 16px;
 }
 
 .title {
@@ -150,10 +151,10 @@ main {
 }
 
 .cta .icon {
-  fill: var(--slate500);
+  fill: var(--slate950);
 }
 .cta:hover .icon {
-  fill: var(--slate950);
+  fill: var(--slate500);
 }
 
 .cta:active .icon {
@@ -174,16 +175,35 @@ main {
 .header {
   grid-column: 2 / 4;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 3fr 2fr;
+  gap: 16px;
   background-color: var(--white);
   color: var(--slate950);
+  padding: 16px 24px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.search-bar__input {
+  flex: 1;
+  background-color: var(--slate300);
+  border-color: transparent;
+  border-radius: 15px;
 }
 
 .account {
   display: flex;
   align-items: center;
+  justify-content: end;
   gap: 1.25rem;
-  border: 2px solid red;
+}
+
+.account__notifications {
+  flex-shrink: 0;
 }
 
 .account__user {
