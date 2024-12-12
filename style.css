@@ -217,6 +217,8 @@ main {
 .attribution {
   font-size: 0.75rem;
   text-align: center;
+  color: var(--slate500);
+  padding: 8px;
 }
 .attribution a {
   color: inherit;
