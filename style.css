@@ -77,6 +77,11 @@ body {
   min-height: 100svh;
 }
 
+*:focus-visible {
+  outline: 2px solid var(--slate950);
+  outline-offset: 2px;
+}
+
 main {
   flex: 1;
   display: grid;
@@ -134,6 +139,10 @@ main {
 
 .nav__link:active {
   color: var(--yellow);
+}
+
+.nav__link:focus-visible {
+  outline-color: var(--white);
 }
 
 .nav__icon {
@@ -272,6 +281,14 @@ main {
   width: 100%;
   padding: 0.25rem 0.5rem;
   border-radius: 20px;
+}
+
+.actions__link:hover {
+  text-decoration: underline;
+}
+
+.actions__link:active {
+  color: var(--yellow);
 }
 
 /* Main content */
