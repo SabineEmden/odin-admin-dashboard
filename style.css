@@ -175,7 +175,7 @@ main {
 .header {
   grid-column: 2 / 4;
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: minmax(13rem, 3fr) minmax(10rem, 2fr);
   gap: 16px;
   background-color: var(--white);
   color: var(--slate950);
