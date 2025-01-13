@@ -159,11 +159,7 @@
       <!-- Header -->
       <div class="header">
         <search class="search-bar">
-          <img
-            class="search-bar__icon icon"
-            src="./assets/icons/magnify.svg"
-            alt=""
-          />
+          <img class="icon" src="./assets/icons/magnify.svg" alt="" />
           <input class="search-bar__input" type="search" name="q" id="query" />
         </search>
         <div class="account">
@@ -182,7 +178,7 @@
           </a>
           <a class="account__user" href="#">
             <img
-              class="account__avatar avatar"
+              class="account__avatar"
               src="./assets/avatars/alien-avatar-space-svgrepo-com.svg"
               alt=""
             />
@@ -195,12 +191,12 @@
             alt=""
             class="greeting__avatar"
           />
-          <div class="greeting__text">
+          <div>
             <span class="greeting__hi">Hi there,</span>
             <h2 class="greeting__name">Morgan Oakley (@morgan)</h2>
           </div>
         </div>
-        <nav aria-label="Actions">
+        <nav aria-label="Account actions">
           <ul class="actions__list" role="list">
             <li class="actions__list-item">
               <a class="actions__link" href="#">New</a>
@@ -215,7 +211,75 @@
         </nav>
       </div>
       <!-- Main Content -->
-      <div class="main-content"></div>
+      <div class="main-content">
+        <h3>Your Projects</h3>
+        <ul class="project-grid" role="list">
+          <li class="project-grid__item">
+            <div class="project-card">
+              <h4 class="project-card__title">Super Cool Project</h4>
+              <p class="project-card__text">
+                Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin
+                nibh erat, id facilisis felis accumsan nec.
+              </p>
+              <div class="project-card__icons"></div>
+            </div>
+          </li>
+          <li class="project-grid__item">
+            <div class="project-card">
+              <h4 class="project-card__title">Less Cool Project</h4>
+              <p class="project-card__text">
+                Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque
+                sed dolor tincidunt, consectetur sapien et, facilisis dolor.
+                Duis sem purus, dignissim ut sapien in, varius pellentesque
+                lacus.
+              </p>
+              <div class="project-card__icons"></div>
+            </div>
+          </li>
+          <li class="project-grid__item">
+            <div class="project-card">
+              <h4 class="project-card__title">Impossible App</h4>
+              <p class="project-card__text">
+                In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a
+                placerat velit sagittis id.
+              </p>
+              <div class="project-card__icons"></div>
+            </div>
+          </li>
+          <li class="project-grid__item">
+            <div class="project-card">
+              <h4 class="project-card__title">Easy Peasy App</h4>
+              <p class="project-card__text">
+                Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim
+                urna eget accumsan aliquam. Curabitur dignissim nisi in tortor
+                commodo, ac bibendum magna tincidunt.
+              </p>
+              <div class="project-card__icons"></div>
+            </div>
+          </li>
+          <li class="project-grid__item">
+            <div class="project-card">
+              <h4 class="project-card__title">Add Blocker</h4>
+              <p class="project-card__text">
+                Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus
+                vel, pharetra hendrerit felis. Aliquam sed malesuada eros.
+              </p>
+              <div class="project-card__icons"></div>
+            </div>
+          </li>
+          <li class="project-grid__item">
+            <div class="project-card">
+              <h4 class="project-card__title">Money Maker</h4>
+              <p class="project-card__text">
+                Praesent convallis, libero quis congue elementum, nunc ante
+                faucibus sapien, ac scelerisque tortor purus sit amet ex.
+                Pellentesque mollis nec sem vel aliquam.
+              </p>
+              <div class="project-card__icons"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </main>
     <footer class="attribution">
       <div class="author">
