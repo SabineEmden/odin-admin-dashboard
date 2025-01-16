@@ -331,6 +331,7 @@ main {
 
 .project-card__icons {
   display: flex;
+  align-items: center;
   justify-content: end;
   gap: 8px;
   margin-top: auto;
