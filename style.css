@@ -172,6 +172,10 @@ main {
   height: 1.5rem;
 }
 
+.cta {
+  flex-shrink: 0;
+}
+
 .cta .icon {
   fill: var(--slate950);
 }
@@ -226,10 +230,6 @@ main {
   align-items: center;
   justify-content: end;
   gap: 20px;
-}
-
-.account__notifications {
-  flex-shrink: 0;
 }
 
 .account__user {
@@ -310,17 +310,37 @@ main {
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
   background-color: var(--white);
   color: var(--slate500);
   height: 100%;
   border-left: var(--yellow) solid 8px;
   border-radius: 8px;
-  padding: 20px;
+  padding: 24px;
 }
 
 .project-card__title {
   font-size: 1.125rem;
   margin-bottom: 8px;
+}
+
+.project-card__text {
+  margin-bottom: 16px;
+}
+
+.project-card__icons {
+  display: flex;
+  justify-content: end;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.project-card__button {
+  background-color: var(--white);
+  border-color: transparent;
+  padding: 0;
+  cursor: pointer;
 }
 
 /* Footer */
