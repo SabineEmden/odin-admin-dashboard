@@ -98,7 +98,7 @@ h3 {
 main {
   flex: 1;
   display: grid;
-  grid-template-columns: max-content 3fr 1fr;
+  grid-template-columns: max-content 3fr minmax(15rem, 1fr);
   grid-template-rows: auto 1fr;
 }
 
@@ -245,7 +245,7 @@ main {
 }
 
 .account__avatar {
-  height: 2rem;
+  height: 2.5rem;
 }
 
 .greeting {
@@ -353,16 +353,18 @@ main {
 /* Aside */
 .aside {
   background-color: var(--slate300);
-  padding: 24px 20px 24px 0;
+  padding: 24px 20px 0 0;
 }
 
 .aside__card {
   background-color: var(--white);
   border-radius: 8px;
   padding: 24px;
+  margin-bottom: 24px;
 }
 
-.announcements__list {
+.announcements__list,
+.trending__list {
   list-style: none;
   padding: 0;
 }
@@ -397,6 +399,38 @@ main {
 
 .announcements__link:active .announcements__title {
   color: var(--blue);
+}
+
+.trending__list-item {
+  margin-bottom: 24px;
+}
+
+.trending__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.trending__link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--slate500);
+  text-decoration: none;
+}
+
+.trending__link:hover .trending__project {
+  text-decoration: underline;
+}
+
+.trending__link:active .trending__project {
+  color: var(--blue);
+}
+
+.trending__avatar {
+  height: 3.5rem;
+}
+
+.trending__user-name {
+  color: var(--slate950);
 }
 
 /* Footer */
