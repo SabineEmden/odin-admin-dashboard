@@ -23,7 +23,7 @@ The brief for this project was to build out an admin dashboard similar to the on
 
 ### Screenshot
 
-![screenshot of solution for Project: Admin Dashboard]()
+![screenshot of solution for Project: Admin Dashboard](./screeshot.png)
 
 ### Links
 
