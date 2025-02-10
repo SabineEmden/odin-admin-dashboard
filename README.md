@@ -114,7 +114,7 @@ For this project, I spent more time on the SVG icons than on Grid or Flexbox. He
 Find me online:
 
 - Personal Website - [Sabine Emden](https://www.sabineemden.com/)
-- Mastodon - [@sabineemden](https://mastodon.online/@sabineemden)
+- Mastodon - [@sabineemden](https://social.tchncs.de/@sabineemden)
 
 ## Acknowledgements
 
