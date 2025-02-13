@@ -116,9 +116,6 @@ I'm an aspiring web developer and a former chemist. What I bring from chemistry 
 - Personal Website - [Sabine Emden](https://www.sabineemden.com/)
 - Mastodon - [@sabineemden](https://social.tchncs.de/@sabineemden)
 
-- Personal Website - [Sabine Emden](https://www.sabineemden.com/)
-- Mastodon - [@sabineemden](https://social.tchncs.de/@sabineemden)
-
 ## Acknowledgements
 
 This solution uses Josh Comeau's [CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/).
